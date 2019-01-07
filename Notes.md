@@ -2,9 +2,6 @@
 
 ## Components
 
-- Story Type
-	- determines which branch to load
-
 - Choice
 	-which path to take
 
