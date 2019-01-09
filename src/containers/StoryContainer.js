@@ -9,7 +9,6 @@ class StoryContainer extends Component {
 		return (
 
 			<div className="storyContainer">
-				< Story />
 				< StorySection />
 			</div>
 			)

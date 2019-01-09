@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import StorySection from './components/StorySection';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import MainMenu from './components/MainMenu';
+import AppRouter from './components/AppRouter';
 
 class App extends Component {
 
@@ -12,29 +11,18 @@ class App extends Component {
   }
 
 
-  handleClick = (e) => {
-    this.setState(showBeginning: !this.state.showBeginning)
-  }
-
-
   render() {
     return (
-      <Router>
-
         <div className="App">
           <header className="App-header">
             <p>
               Welcome to Choose Your Own Adventure!
             </p>
-            
-          
-            <div className="start">
-              <button onClick={this.handleClick}>Let's Go!</button>
-            </div>
+
+            <MainMenu/>
+            <AppRouter/>
           </header>
         </div>
-        
-      </Router>
     );
   }
 }
