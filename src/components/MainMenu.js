@@ -1,24 +1,36 @@
 import React from 'react';
 import { BrowserRouter as Link } from 'react-router-dom';
-import { Button } from 'react-materialize';
-
+import {  Button } from 'react-materialize';
+import AppRouter from './AppRouter';
+import { Container, Row, Col } from 'reactstrap';
 
 const MainMenu = () => {
+
   return (
     <div className="mainMenu">
+      <div>
       <Link to="/">
         <Button node="a" href="/">Home</Button>
-      </Link><br></br>
+      </Link>
+      </div>
+      <div>
       <Link to="/dean">
         <Button node="a" href="/dean">Dean's Story</Button>
-      </Link><br></br>
+      </Link>
+      </div>
+      <div>
       <Link to="/cass">
         <Button node="a" href='/cass'>Cass's Story</Button>
-      </Link><br></br>
+      </Link>
+      </div>
+      <div>
       <Link to="/sam">
         <Button node="a" href="/sam">Sam's Story</Button>
-      </Link><br></br><br></br>
+      </Link>
+      </div>
+      <AppRouter/>
     </div>
+   
   );
 }; 
 

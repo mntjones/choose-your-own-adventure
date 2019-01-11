@@ -2,7 +2,9 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    Home
+  	<p>
+      Welcome to Choose Your Own Supernatural Adventure!
+    </p>
   </div>
 )
 
