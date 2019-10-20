@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import StorySection from '../components/StorySection';
-import { connect } from 'react-redux';
+//import { connect } from 'react-redux';
 
 class StoryContainer extends Component {
+
+	
 
 	render () {
 
 		return (
 
 			<div className="storyContainer">
-				< StorySection />
+				
 			</div>
 			)
 	}
 }
+
+export default StoryContainer;

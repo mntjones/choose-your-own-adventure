@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import MainMenu from './components/MainMenu';
-//import AppRouter from './components/AppRouter';
+import StoryContainer from './containers/StoryContainer'
 
 class App extends Component {
 
@@ -16,10 +15,20 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             
-
-            <MainMenu/>
+            <h1> Choose Your Own <span>Supernatural</span> Adventure! </h1>
+            
             
           </header>
+          <div className="instructions">
+            <p> Read the story below and then choose the button that tells the character what to do next!</p>
+
+          </div>
+
+          < div className="story">
+
+            <StoryContainer/>
+
+          </div>
         </div>
     );
   }
