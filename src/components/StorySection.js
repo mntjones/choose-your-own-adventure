@@ -19,42 +19,6 @@ const StorySection = {
 		{choice: DBA, text: "Kill Sam"},
 		{choice: DBB, text: "Kill Lucifer"}
 	]
-
-	samSections: [
-		{choice: SA, text: "SA section \n ...Story... \n"},
-		{choice: SB, text: "SB section \n ...Story... \n"},
-		{choice: SAA, text: "SAA section"},
-		{choice: SAB, text: "SAB section"},
-		{choice: SBA, text: "SBA section"},
-		{choice: SBB, text: "SBB section"}
-	]
-
-	samButtons: [
-		{choice: SA, text: "Hunt Lucifer"},
-		{choice: SB, text: "Go back to school"},
-		{choice: SAA, text: "SAA button"},
-		{choice: SAB, text: "SAB button"},
-		{choice: SBA, text: "SBA button"},
-		{choice: SBB, text: "SBB button"}
-	]
-
-	cassSections: [
-		{choice: CA, text: "CA section \n ...Story... \n"},
-		{choice: CB, text: "CB section \n ...Story... \n"},
-		{choice: CAA, text: "CAA section"},
-		{choice: CAB, text: "CAB section"},
-		{choice: CBA, text: "CBA section"},
-		{choice: CBB, text: "CBB section"}
-	]
-	
-	cassButtons: [
-		{choice: CA, text: "CA section \n ...Story... \n"},
-		{choice: CB, text: "CB section \n ...Story... \n"},
-		{choice: CAA, text: "CAA button"},
-		{choice: CAB, text: "CAB button"},
-		{choice: CBA, text: "CBA button"},
-		{choice: CBB, text: "CBB button"}
-	]
 }
 
 export default StorySection;
